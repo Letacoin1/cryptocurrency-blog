@@ -94,7 +94,7 @@ const itachi = new Wallet();
 const madara = new Wallet();
 const orochimaru = new Wallet();
 
-itachi.send(50, madara.publicKey);
+itachi.send(250, madara.publicKey);
 madara.send(23, orochimaru.publicKey);
 orochimaru.send(5, madara.publicKey);
 
